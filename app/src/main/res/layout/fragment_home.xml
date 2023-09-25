@@ -7,13 +7,21 @@
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/baseline_home_24">
+
+    </ImageView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textAlignment="center"
         android:gravity="center"
         android:textStyle="bold"
-        android:textColor="#CDDC39"
+        android:textColor="#D31306"
         android:textSize="50sp"
         android:text="Welcome To Home Fragment" />
 

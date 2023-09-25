@@ -7,6 +7,16 @@
     tools:context=".PersonFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/baseline_person_24">
+
+    </ImageView>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
