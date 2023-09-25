@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C3EFEB"
+    android:background="@drawable/boards_wooden_wall"
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -13,7 +13,8 @@
         android:textAlignment="center"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="25sp"
-        android:text="Welcome To Home" />
+        android:textColor="#CDDC39"
+        android:textSize="50sp"
+        android:text="Welcome To Home Fragment" />
 
 </FrameLayout>

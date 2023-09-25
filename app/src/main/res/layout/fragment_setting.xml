@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8C6C6"
+    android:background="@drawable/wall_surface_paint"
     tools:context=".SettingFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -13,6 +13,7 @@
         android:gravity="center"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:textSize="25sp"
-        android:text="Welcome To Setting" />
+        android:textColor="#3F51B5"
+        android:textSize="50sp"
+        android:text="Welcome To Setting Fragment" />
 </FrameLayout>
